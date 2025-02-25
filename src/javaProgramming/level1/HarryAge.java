@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class HarryAge {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter current Year: ");
-        int year =sc.nextInt();
-        System.out.println("Harry Age is "+(year-2000));
+
+        System.out.println("Harry Age in 2024 is "+(2024-2000));
     }
 }
